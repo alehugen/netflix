@@ -32,12 +32,14 @@ header .logo {
 
 header nav a {
     text-decoration: none;
+    font-weight: bolder;
     color: #AAA;
     margin-right: 10px;
 }
 
 header nav a:hover {
     color: #fff;
+    cursor: pointer;
 }
 
 .filme-principal {
@@ -64,6 +66,10 @@ header nav a:hover {
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
+.filme-principal .container {
+    width: 60%;
+}
+
 .botao {
     background-color: rgba(0, 0, 0, .50);
     border: none;
@@ -82,4 +88,14 @@ header nav a:hover {
 
 .botao i {
     margin-right: 5px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.box-filme {
+    height: 80%;
+    width: 80%;
+    display: block;
 }
